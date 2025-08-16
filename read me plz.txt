@@ -1,0 +1,18 @@
+=== Matrix Audio Player Installation Guide ===
+
+1. REQUIREMENTS:
+   - Python 3.7 or newer
+   - Supported OS: Windows/Linux/macOS
+
+2.
+   Linux/macOS additional requirements:
+   # Debian/Ubuntu:
+   sudo apt install python3-pyqt5.qtmultimedia libqt5multimedia5-plugins
+   
+   # macOS (Homebrew):
+   brew install qt@5
+
+TROUBLESHOOTING:
+- If no sound: Check PyQt5 multimedia plugins exist in:
+  PythonXX\Lib\site-packages\PyQt5\Qt5\plugins\multimedia
+
